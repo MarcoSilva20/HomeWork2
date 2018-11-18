@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">HW2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_information_song">InformationSong</string>
+    <string name="titleTextView">titleTextView</string>
+    <string name="artText">artText</string>
+    <string name="release_dateText">release_dateText</string>
+    <string name="dialog_title">dialog_title</string>
+    <string name="dialog_ok">dialog_ok</string>
+    <string name="dialog_cancel">dialog_cancel</string>
+    <string name="takePhoto">takePhoto</string>
+</resources>

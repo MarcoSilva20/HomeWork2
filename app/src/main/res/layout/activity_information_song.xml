@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformationSong">
+
+    <TextView
+        android:id="@+id/songTitle"
+        android:layout_width="288dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/artist"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="258dp"
+        android:text="@string/titleTextView"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <TextView
+        android:id="@+id/artist"
+        android:layout_width="294dp"
+        android:layout_height="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="335dp"
+        android:text="@string/artText"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="215dp" />
+
+    <TextView
+        android:id="@+id/release_date"
+        android:layout_width="294dp"
+        android:layout_height="43dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="123dp"
+        android:text="@string/release_dateText"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="315dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/deleteSong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="18dp"
+        android:clickable="true"
+        android:src="@android:drawable/ic_delete" />
+
+    <ImageView
+        android:id="@+id/songPhoto"
+        android:layout_width="235dp"
+        android:layout_height="147dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="220dp" />
+    <Button
+        android:id="@+id/takePhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:text="@string/takePhoto"
+        />
+
+</RelativeLayout>
